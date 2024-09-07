@@ -10,6 +10,7 @@ local_protocol = "http"
 name = "cloudflare-docker-proxy"
 routes = [
  { pattern = "docker.coorify.com", custom_domain = true },
+ { pattern = "treafik.coorify.com", custom_domain = true },
 ]
 # routes = [
 #   { pattern = "docker.libcuda.so", custom_domain = true },
